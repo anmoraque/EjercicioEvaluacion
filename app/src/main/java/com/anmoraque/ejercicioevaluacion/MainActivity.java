@@ -38,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void caja4(View view) {
         cajaRoja.setVisibility(View.INVISIBLE);
+        finish();
     }
-
 }

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/cuadro1"
+        android:layout_width="205dp"
+        android:layout_height="370dp"
+        android:background="@color/green"
+        android:onClick="caja1"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/cuadro2"
+        android:layout_width="205dp"
+        android:layout_height="370dp"
+        android:background="@color/yellow"
+        android:onClick="caja2"
+        android:orientation="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_height="370dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/cuadro3"
+            android:orientation="horizontal"
+            android:onClick="caja3"
+            android:layout_width="205dp"
+            android:layout_height="370dp"
+            android:background="@color/blue"/>
+
+        <LinearLayout
+            android:id="@+id/cuadro4"
+            android:orientation="horizontal"
+            android:onClick="caja4"
+            android:layout_width="205dp"
+            android:layout_height="370dp"
+            android:background="@color/red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cuadro5"
+        android:orientation="horizontal"
+        android:layout_width="205dp"
+        android:layout_height="370dp"
+        android:layout_gravity="center"
+        android:background="@color/white"/>
+
+
+
+</FrameLayout>
